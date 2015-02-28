@@ -5,16 +5,16 @@
 Summary:	GNOME Internet Radio Locator
 Summary(pl.UTF-8):	GNOME Internet Radio Locator - program do wyszukiwania rozgłośni internetowych
 Name:		girl
-Version:	1.1.0
+Version:	1.4.0
 Release:	1
 License:	LGPL v2.1+
 Group:		Applications/System
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/girl/1.1/%{name}-%{version}.tar.xz
-# Source0-md5:	a8df401773ff6cd7093a66281374c0ea
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/girl/1.4/%{name}-%{version}.tar.xz
+# Source0-md5:	6f2a98339ba5492eda4ab6065a3b69af
 URL:		https://wiki.gnome.org/Apps/Girl
 BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	gnome-vfs2-devel >= 2.0
-BuildRequires:	gtk+3-devel >= 3.0
+BuildRequires:	gtk+2-devel >= 2.0
 BuildRequires:	intltool >= 0.50.1
 BuildRequires:	libgnome-devel >= 2.0
 BuildRequires:	libgnomecanvas-devel >= 2.0
@@ -50,12 +50,12 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-%find_lang GIRL
+%find_lang %{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files -f GIRL.lang
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog HACKING LETTER NEWS* README THANKS TODO YP-DIRS
 %attr(755,root,root) %{_bindir}/girl
