@@ -6,7 +6,7 @@ Summary:	GNOME Internet Radio Locator
 Summary(pl.UTF-8):	GNOME Internet Radio Locator - program do wyszukiwania rozgłośni internetowych
 Name:		girl
 Version:	5.0.0
-Release:	3
+Release:	4
 License:	LGPL v2.1+
 Group:		Applications/System
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/girl/5.0/%{name}-%{version}.tar.xz
@@ -53,7 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 # it's exactly the same as C
-%{__rm} $RPM_BUILD_ROOT%{_datadir}/help/en_US
+%{__rm} -r $RPM_BUILD_ROOT%{_datadir}/help/en_US
 
 %find_lang %{name} --with-gnome
 
