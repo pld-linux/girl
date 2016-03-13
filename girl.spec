@@ -5,12 +5,12 @@
 Summary:	GNOME Internet Radio Locator
 Summary(pl.UTF-8):	GNOME Internet Radio Locator - program do wyszukiwania rozgłośni internetowych
 Name:		girl
-Version:	8.0.1
+Version:	8.3.16
 Release:	1
 License:	LGPL v2.1+
 Group:		Applications/System
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/girl/8.0/%{name}-%{version}.tar.xz
-# Source0-md5:	3699e4ec8bcabeb40c498c69837481c4
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/girl/8.3/%{name}-%{version}.tar.xz
+# Source0-md5:	069646682ad574d5aafafafd9b9f7e28
 URL:		https://wiki.gnome.org/Apps/Girl
 BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	gnome-vfs2-devel >= 2.0
