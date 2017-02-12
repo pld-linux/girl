@@ -1,0 +1,11 @@
+--- girl-9.8.0/src/Makefile.am.orig	2017-02-06 16:23:28.000000000 +0100
++++ girl-9.8.0/src/Makefile.am	2017-02-12 08:32:31.610420116 +0100
+@@ -6,8 +6,6 @@
+ 	-DGIRL_DATADIR="\"$(pkgdatadir)\"" \
+ 	$(NULL)
+ 
+-AM_LDFLAGS= $(GIRL_LIBS)
+-
+ noinst_PROGRAMS = test-stations-gfx test-endianess test-stations
+ 
+ test_stations_SOURCES = test-stations.c girl-stations-map.h girl-stations-map.c girl-tz.c girl-tz.h
