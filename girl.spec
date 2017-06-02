@@ -17,6 +17,8 @@ BuildRequires:	automake >= 1:1.11
 BuildRequires:	glib2-devel >= 1:2.40
 BuildRequires:	gnome-vfs2-devel >= 2.0
 BuildRequires:	gstreamer-devel >= 1.0
+# pkgconfig(gstreamer-player-1.0)
+BuildRequires:	gstreamer-plugins-bad-devel >= 1.0
 BuildRequires:	gstreamer-plugins-base-devel >= 1.0
 BuildRequires:	gtk+2-devel >= 2.0
 BuildRequires:	gtk-doc >= 1.16
