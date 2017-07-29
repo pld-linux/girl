@@ -8,7 +8,7 @@ Name:		girl
 Version:	10.0.0
 Release:	1
 License:	LGPL v2.1+
-Group:		Applications/System
+Group:		X11/Applications/Sound
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/girl/10.0/%{name}-%{version}.tar.xz
 # Source0-md5:	9f6fabaf99b0a0e5d5c2c8fac4d4d001
 URL:		https://wiki.gnome.org/Apps/Girl
